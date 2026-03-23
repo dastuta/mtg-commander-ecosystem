@@ -2,6 +2,52 @@
 
 > **An open, modular ecosystem for Magic: The Gathering Commander tracking, statistics, and deck analysis.**
 
+---
+
+## ⚠️ IMPORTANT DISCLAIMER - PLEASE READ
+
+### Community-Driven, Non-Profit Project
+
+This project is **100% community-driven** and **non-profit**. We are a group of Magic: The Gathering players who want to create open-source tools for the community. There is:
+
+- **No commercial interest** - We don't make money from this
+- **No advertising** - We don't sell your data or show ads
+- **No company backing** - This is maintained by volunteers in their free time
+- **No obligation** - Use it as you wish, contribute if you want
+
+### 🚧 In Development / Conceptual Phase
+
+**This project is currently in the PLANNING PHASE.**
+
+What exists right now:
+- ✅ This documentation repository
+- ✅ Conceptual specifications
+- ✅ Proposed data formats
+- ✅ Architecture discussions
+
+What does NOT exist yet:
+- ❌ No working application
+- ❌ No deployed server
+- ❌ No finished product
+
+This repository serves as a **planning and coordination space** for the community to discuss, design, and eventually build the ecosystem together. Nothing here is final, and nothing is guaranteed to work.
+
+### Everyone is Welcome to Contribute
+
+We explicitly welcome:
+
+- **Feedback** - Tell us what features you need
+- **Criticism** - Point out flaws in our thinking
+- **Ideas** - Suggest new approaches or components
+- **Contributions** - Help design, code, or document
+- **Questions** - If something is unclear, ask!
+
+No MTG knowledge required - we need developers, designers, writers, and players alike.
+
+**Open an [Issue](../issues) or [Discussion](../discussions) to get involved!**
+
+---
+
 ## Vision
 
 Create a community-driven, open-source alternative to proprietary tools like playgroup.gg. Instead of building one monolithic application, we design a **modular ecosystem** where different tools can work together through a shared data format.
@@ -72,20 +118,39 @@ Tools for deck optimization:
 - Mana curve optimization
 - Win condition identification
 
-## Quick Start
+## Current Status
 
-### For Users
+| Area | Status | Notes |
+|------|--------|-------|
+| Data Schema | 🟡 Draft | First version proposed |
+| Architecture | 🟡 Draft | General concept agreed |
+| Documentation | 🟡 Draft | This repository |
+| Tracker App | ⬜ Not Started | Needs implementation |
+| Statistics Engine | ⬜ Not Started | Needs implementation |
+| Server | ⬜ Not Started | Needs implementation |
+| Deck Analyzer | ⬜ Not Started | Future consideration |
 
-1. **Pick a tracker** from the [compatible tools list](./INTEGRATIONS.md)
-2. **Create an account** on a compatible server (or use local export)
-3. **Start tracking games** and build your statistics
+### Legend
+- 🟢 Complete
+- 🟡 In Progress / Draft
+- ⬜ Not Started
+
+## How to Get Involved
+
+### For Players
+1. **Share your needs** - What features would you want?
+2. **Give feedback** - Is the proposed data format missing something?
+3. **Spread the word** - Share this with fellow EDH players
 
 ### For Developers
+1. **Review the specs** - Does the architecture make sense?
+2. **Build a prototype** - Try implementing a component
+3. **Contribute code** - See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to:
-- Add support for the standard format
-- Build new components
-- Contribute to existing projects
+### For Everyone
+1. **Open a Discussion** - Introduce yourself, share ideas
+2. **Create an Issue** - Report problems or request features
+3. **Ask Questions** - Nothing is too basic to ask
 
 ## Data Standard
 
