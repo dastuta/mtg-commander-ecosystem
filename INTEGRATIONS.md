@@ -10,6 +10,7 @@ Tools that natively support the standard game data format:
 
 | Tool | Export | Import | Notes |
 |------|--------|--------|-------|
+| [Game Tracker](https://github.com/dastuta/game-tracker) | ✅ (JSON) | ❌ | PWA, Lit/Web Components, MIT License |
 | *Your Project Here* | ✅ | ✅ | Template/example |
 
 *Submit a PR to add your tool!*
